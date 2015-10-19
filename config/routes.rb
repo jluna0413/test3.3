@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'landings/index'
+
   resources :jobs do
   #->Prelang (voting/acts_as_votable)
   member do
